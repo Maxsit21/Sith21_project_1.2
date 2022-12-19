@@ -1,0 +1,48 @@
+﻿  Sith21_project_1.2.cpp
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(189,23): error C2440: инициализация: невозможно преобразовать "DoubleConnList<char>::Element<T> *" в "DoubleConnList<char>::Element *"
+          with
+          [
+              T=char
+          ]
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(189,23): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(187,1): message : во время компиляции функции-члена класс шаблон "void DoubleConnList<char>::remove(int)"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Sith21_project_1.2.cpp(45,16): message : выполняется компиляция ссылки на экземпляр шаблон функции "void DoubleConnList<char>::remove(int)"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Sith21_project_1.2.cpp(18,27): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "DoubleConnList<char>"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(193,27): error C2440: =: невозможно преобразовать "DoubleConnList<T>::Element<T> *" в "DoubleConnList<char>::Element *"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(193,27): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(202,18): error C2446: ==: нет преобразования "DoubleConnList<char>::Element<T> *" в "DoubleConnList<char>::Element *"
+          with
+          [
+              T=char
+          ]
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(202,21): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(204,26): error C2440: инициализация: невозможно преобразовать "DoubleConnList<T>::Element<T> *" в "DoubleConnList<char>::Element *"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(204,26): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(205,19): error C2440: =: невозможно преобразовать "DoubleConnList<char>::Element *" в "DoubleConnList<char>::Element<T> *"
+          with
+          [
+              T=char
+          ]
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(205,19): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(208,23): error C2446: ==: нет преобразования "DoubleConnList<char>::Element<T> *" в "DoubleConnList<char>::Element *"
+          with
+          [
+              T=char
+          ]
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(208,26): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(210,26): error C2440: инициализация: невозможно преобразовать "DoubleConnList<T>::Element<T> *" в "DoubleConnList<char>::Element *"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(210,26): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(211,18): error C2440: =: невозможно преобразовать "DoubleConnList<char>::Element *" в "DoubleConnList<char>::Element<T> *"
+          with
+          [
+              T=char
+          ]
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(211,18): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(217,26): error C2440: инициализация: невозможно преобразовать "DoubleConnList<T>::Element<T> *" в "DoubleConnList<char>::Element *"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(217,26): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(218,26): error C2440: инициализация: невозможно преобразовать "DoubleConnList<T>::Element<T> *" в "DoubleConnList<char>::Element *"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(218,26): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(220,35): error C2440: =: невозможно преобразовать "DoubleConnList<char>::Element *" в "DoubleConnList<T>::Element<T> *"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(220,35): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(221,35): error C2440: =: невозможно преобразовать "DoubleConnList<char>::Element *" в "DoubleConnList<T>::Element<T> *"
+C:\Users\sitch\source\repos\Sith21_project_1.2\Doubleconnlist.h(221,35): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
